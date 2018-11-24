@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+		<title>Tabs | Vicky Restaurant</title>
+		<link rel="shortcut icon" type="image/ico" href="images/favicon-brown.ico" />
+
+		<link rel='stylesheet' href='css/bootstrap.min.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/jquery.selectBox.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/elegant-icon.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/style.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/commerce.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/form.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/custom.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/magnific-popup.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/preloader.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans%3A400%2C700%7CDancing+Script%3A400%2C700%7CRoboto+Slab%3A400%2C700&#038;' type='text/css' media='all'/>
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+	</head>
+	<body data-spy="scroll">
+		<div id="preloader">
+			<img class="preloader__logo" src="images/logo-brown.png" alt="" width="100" height="100"/>
+			<div class="preloader__progress">
+				<svg width="60px" height="60px" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+					<path class="preloader__progress-circlebg" fill="none" stroke="#dddddd" stroke-width="4" stroke-linecap="round" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+					<path id='preloader__progress-circle' fill="none" stroke="#997840" stroke-width="4" stroke-linecap="round" stroke-dashoffset="192.61" stroke-dasharray="192.61 192.61" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+				</svg>
+			</div>
+		</div>
+		<div id="wrapper" class="wide-wrap">
+			<header class="header-container header-type-classic header-navbar-classic header-scroll-resize">
+				<div class="topbar">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-5 col-sm-6">
+								<div class="left-topbar">
+									<div class="topbar-info">
+										<a href="#"><i class="fa fa-phone"></i> (123) 456 789</a>
+										<a href="mailto:info@domain.com"><i class="fa fa-envelope-o"></i> info@domain.com</a>
+										<a href="#"><i class="fa fa-skype"></i> skype.name</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-7 col-sm-6">
+								&nbsp;
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="navbar-container">
+					<div class="navbar navbar-default navbar-scroll-fixed">
+						<div class="navbar-default-wrap">
+							<div class="container">
+								<div class="navbar-wrap">
+									<div class="navbar-header">
+										<button data-target=".primary-navbar-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar bar-top"></span>
+											<span class="icon-bar bar-middle"></span>
+											<span class="icon-bar bar-bottom"></span>
+										</button>
+										<a class="cart-icon-mobile" href="#">
+											<i class="elegant_icon_bag"></i>
+											<span>0</span>
+										</a>
+										<a class="navbar-brand" href="./">
+											<img class="logo" alt="Vicky Coffee" src="images/logo-brown.png">
+											<img class="logo-fixed" alt="Vicky Coffee" src="images/logo-brown.png">
+											<img class="logo-mobile" alt="Vicky Coffee" src="images/logo-mobile-brown.png">
+										</a>
+									</div>
+									<nav class="collapse navbar-collapse primary-navbar-collapse">
+										<ul class="nav navbar-nav primary-nav">
+											<li class="menu-item-has-children dropdown">
+												<a href="./" class="dropdown-hover">
+													<span class="underline">Home</span> 
+													<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu">
+													<li><a href="index-parallax.html">Home Parallax</a></li>
+												</ul>
+											</li>
+											<li>
+												<a href="our-menu.html">
+													<span class="underline">Our Menu</span>
+												</a>
+											</li>
+											<li class="menu-item-has-children dropdown">
+												<a href="#" class="dropdown-hover">
+													<span class="underline">Blog</span> 
+													<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu">
+													<li><a href="blog-default.html">Blog Default</a></li>
+													<li><a href="blog-medium.html">Blog Medium</a></li>
+													<li><a href="blog-center.html">Blog Center</a></li>
+													<li><a href="blog-zigzag.html">Blog Zigzag</a></li>
+													<li><a href="blog-masonry.html">Blog Masonry</a></li>
+													<li><a href="blog-timeline.html">Blog Timeline</a></li>
+													<li><a href="blog-grid.html">Blog Grid</a></li>
+													<li><a href="blog-image-detail.html">Blog Image Detail</a></li>
+													<li><a href="blog-video-detail.html">Blog Video Detail</a></li>
+												</ul>
+											</li>
+											<li class="menu-item-navbar-brand">
+												<a class="navbar-brand" href="./">
+													<img class="logo" alt="Vicky Restaurant" src="images/logo.png">
+													<img class="logo-fixed" alt="Vicky Restaurant" src="images/logo.png">
+													<img class="logo-mobile" alt="Vicky Restaurant" src="images/logo-mobile.png">
+												</a>
+											</li>
+											<li class="menu-item-has-children dropdown">
+												<a href="#" class="dropdown-hover">
+													<span class="underline">Features</span> 
+													<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu">
+													<li><a href="reservation.html">Reservation</a></li>
+													<li><a href="gallery.html">Gallery</a></li>
+													<li><a href="gallery-detail.html">Gallery Detail</a></li>
+													<li><a href="about-us.html">About Us</a></li>
+													<li><a href="contact-us.html">Contact Us</a></li>
+												</ul>
+											</li>
+											<li class="menu-item-has-children dropdown">
+												<a href="shop.html" class="dropdown-hover">
+													<span class="underline">Shop</span> 
+													<span class="caret"></span>
+												</a>
+												<ul role="menu" class="dropdown-menu">
+													<li><a href="shop-masonry.html">Shop Masonry</a></li>
+													<li><a href="my-account.html">My Account</a></li>
+													<li><a href="cart.html">Cart</a></li>
+													<li><a href="empty-cart.html">Empty Cart</a></li>
+													<li><a href="shop-detail.html">Shop Detail</a></li>
+												</ul>
+											</li>
+											<li class="menu-item-has-children megamenu megamenu-fullwidth dropdown active">
+												<a href="#" class="dropdown-hover">
+													<span class="underline">Shortcodes</span> 
+													<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu">
+													<li class="menu-item-has-children mega-col-3 dropdown-submenu">
+														<h3 class="megamenu-title">
+															1. Shortcodes <span class="caret"></span>
+														</h3>
+														<ul class="dropdown-menu">
+															<li><a href="accordion.html">Accordions</a></li>
+															<li><a href="blockquote.html">Blockquote</a></li>
+															<li><a href="button.html">Buttons</a></li>
+															<li><a href="call-to-action.html">Call to Action</a></li>
+															<li><a href="carousel-content.html">Carousel Contents</a></li>
+															<li><a href="client.html">Client</a></li>
+														</ul>
+													</li>
+													<li class="menu-item-has-children mega-col-3 dropdown-submenu">
+														<h3 class="megamenu-title">
+															2. Shortcodes <span class="caret"></span>
+														</h3>
+														<ul class="dropdown-menu">
+															<li><a href="google-map.html">Google Maps</a></li>
+															<li><a href="counter.html">Counter</a></li>
+															<li><a href="icon-box.html">IconBox</a></li>
+															<li><a href="latest-news.html">Latest News</a></li>
+															<li><a href="message-box.html">Message Boxes</a></li>
+														</ul>
+													</li>
+													<li class="menu-item-has-children mega-col-3 dropdown-submenu">
+														<h3 class="megamenu-title">
+															3.Shortcodes <span class="caret"></span>
+														</h3>
+														<ul class="dropdown-menu">
+															<li><a href="modal.html">Modal</a></li>
+															<li><a href="pie-chart.html">Pie Chart</a></li>
+															<li><a href="pricing-table.html">Pricing Table</a></li>
+															<li><a href="progress-bar.html">Progress Bars</a></li>
+															<li><a href="responsive-video.html">Responsive Video</a></li>
+														</ul>
+													</li>
+													<li class="menu-item-has-children mega-col-3 dropdown-submenu">
+														<h3 class="megamenu-title">
+															4. Shortcodes <span class="caret"></span>
+														</h3>
+														<ul class="dropdown-menu">
+															<li class="active"><a href="tabs.html">Tabs</a></li>
+															<li><a href="team-member.html">Team Member</a></li>
+															<li><a href="testimonial.html">Testimonial Slider</a></li>
+															<li><a href="timeline.html">Timelines</a></li>
+															<li><a href="tooltip.html">ToolTip / Popover</a></li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li class="navbar-search">
+												<a class="navbar-search-button" href="#">
+													<i class="fa fa-search"></i>
+												</a>
+												<div class="search-form-wrap show-popup hide">
+													<form>
+														<input type="search" class="searchinput" name="s" autocomplete="off" value="" placeholder="Search..."/>
+														<input type="submit" class="searchsubmit hidden" name="submit" value="Search"/>
+													</form>
+												</div>
+											</li>
+											<li class="navbar-minicart">
+												<a class="minicart-link" href="#">
+													<span class="minicart-icon">
+														<i class="minicart-icon-svg elegant_icon_bag"></i> 
+														<span>0</span>
+													</span>
+												</a>
+												<div class="minicart">
+													<div class="minicart-header show">Your shopping bag is empty.</div>
+													<div class="minicart-footer">
+														<div class="minicart-actions clearfix">
+															<a class="button" href="#">
+																<span class="text">Go to the shop</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+						<div class="header-search-overlay hide">
+							<div class="container">
+								<form class="searchform">
+									<input type="search" class="searchinput" name="s" autocomplete="off" value="" placeholder="Search..."/>
+									<input type="submit" class="searchsubmit hidden" name="submit" value="Search"/>
+								</form>
+								<button type="button" class="close">
+									<span aria-hidden="true">&times;</span>
+									<span class="sr-only">Close</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="heading-container">
+				<div class="container heading-standar heading-parallax">
+					<div class="heading-wrap parallax-content">
+						<div class="page-title">
+							<h1>Tabs</h1>
+						</div>
+						<div class="page-breadcrumb">
+							<ul class="breadcrumb">
+								<li>
+									<span><a href="#" class="home"><span>Home</span></a></span>
+								</li>
+								<li>
+									<span>Tabs</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-container">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="main-content">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="separator separator-align-center separator-width-100 pb-4">
+                                            <span class="separator-left">
+                                                <span class="separator-line"></span>
+                                            </span>
+                                            <h4>Tabs Control Full</h4>
+                                            <span class="separator-right">
+                                                <span class="separator-line"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="tabbable tabs-primary tabs-top tabs-center tabs-full">
+                                            <ul class="nav nav-tabs" role="tablist">
+                                                <li class="active">
+                                                    <a href="#tab-1" role="tab" data-toggle="tab">Frist Tab</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#tab-2" role="tab" data-toggle="tab">
+                                                        <i class="fa fa-check-square-o"></i>Tab Icon
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#tab-3" role="tab" data-toggle="tab">
+                                                        <i class="fa fa-download"></i>Three
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade active in" id="tab-1">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tab-2">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tab-3">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="tabbable tabs-success tabs-below tabs-center tabs-full">
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade active in" id="tab-4">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tab-5">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tab-6">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="nav nav-tabs" role="tablist">
+                                                <li class="active">
+                                                    <a href="#tab-4" role="tab" data-toggle="tab">Frist Tab</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#tab-5" role="tab" data-toggle="tab">
+                                                        <i class="fa fa-check-square-o"></i>Tab Icon
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#tab-6" role="tab" data-toggle="tab">
+                                                        <i class="fa fa-download"></i>Three
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="separator separator-align-center separator-width-100 pb-4">
+                                            <span class="separator-left">
+                                                <span class="separator-line"></span>
+                                            </span>
+                                            <h4>Tab Top</h4>
+                                            <span class="separator-right">
+                                                <span class="separator-line"></span>
+                                            </span>
+                                        </div>
+                                        <div class="tabbable tabs-primary tabs-top">
+                                            <ul class="nav nav-tabs" role="tablist">
+                                                <li class="active">
+                                                    <a href="#tab-7" role="tab" data-toggle="tab">Frist Tab</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#tab-8" role="tab" data-toggle="tab">
+                                                        <i class="fa fa-check-square-o"></i>Tab Icon
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#tab-9" role="tab" data-toggle="tab">
+                                                        <i class="fa fa-download"></i>Three
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade active in" id="tab-7">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tab-8">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tab-9">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="separator separator-align-center separator-width-100 pb-4">
+                                            <span class="separator-left">
+                                                <span class="separator-line"></span>
+                                            </span>
+                                            <h4>Tab Below</h4>
+                                            <span class="separator-right">
+                                                <span class="separator-line"></span>
+                                            </span>
+                                        </div>
+                                        <div class="tabbable tabs-success tabs-below">
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade active in" id="tab-10">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tab-11">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tab-12">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="nav nav-tabs" role="tablist">
+                                                <li class="active">
+                                                    <a href="#tab-10" role="tab" data-toggle="tab">Frist Tab</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#tab-11" role="tab" data-toggle="tab">
+                                                        <i class="fa fa-check-square-o"></i>Tab Icon
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#tab-12" role="tab" data-toggle="tab">
+                                                        <i class="fa fa-download"></i>Three
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="separator separator-align-center separator-width-100 pb-4">
+                                            <span class="separator-left">
+                                                <span class="separator-line"></span>
+                                            </span>
+                                            <h4>Tab Left</h4>
+                                            <span class="separator-right">
+                                                <span class="separator-line"></span>
+                                            </span>
+                                        </div>
+                                        <div class="tabbable tabs-warning tabs-left">
+                                            <ul class="nav nav-tabs" role="tablist">
+                                                <li class="active">
+                                                    <a href="#tab-13" role="tab" data-toggle="tab">Frist Tab</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#tab-14" role="tab" data-toggle="tab">
+                                                        <i class="fa fa-check-square-o"></i>Tab Icon
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#tab-15" role="tab" data-toggle="tab">
+                                                        <i class="fa fa-download"></i>Three
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade active in" id="tab-13">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tab-14">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tab-15">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="separator separator-align-center separator-width-100 pb-4">
+                                            <span class="separator-left">
+                                                <span class="separator-line"></span>
+                                            </span>
+                                            <h4>Tab Right</h4>
+                                            <span class="separator-right">
+                                                <span class="separator-line"></span>
+                                            </span>
+                                        </div>
+                                        <div class="tabbable tabs-danger tabs-right">
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade active in" id="tab-16">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tab-17">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tab-18">
+                                                    <div class="text-block">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dolor dolor, eleifend eget ex vulputate, semper ornare lectus. Aenean in arcu efficitur, imperdiet dolor quis, elementum metus. Pellentesque ornare libero at egestas volutpat. Proin id nulla ex. Vivamus porta lacus et tincidunt pharetra. Vivamus cursus nibh porta, porta enim eu, interdum lectus. Vivamus volutpat laoreet purus ac sollicitudin.
+                                                        </p>
+                                                        <p>
+                                                            Nullam a maximus ex. Vestibulum feugiat tortor quis lorem semper convallis. Nulla vulputate nunc in arcu rutrum commodo. Aenean lorem eros, tincidunt vehicula urna ut, efficitur vehicula elit. Sed sed posuere libero.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="nav nav-tabs" role="tablist">
+                                                <li class="active">
+                                                    <a href="#tab-16" role="tab" data-toggle="tab">Frist Tab</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#tab-17" role="tab" data-toggle="tab">
+                                                        <i class="fa fa-check-square-o"></i>Tab Icon
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#tab-18" role="tab" data-toggle="tab">
+                                                        <i class="fa fa-download"></i>Three
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-widget">
+				<div class="container">
+					<div class="footer-widget-wrap">
+						<div class="row">
+							<div class="footer-widget-col col-md-3 col-sm-6">
+								<div class="widget widget_text">
+									<h3 class="widget-title">
+										<span>Business Hours</span>
+									</h3>
+									<div class="textwidget">
+										<p>
+											Vicky Restaurant opended in 1999 - We specialize in three course tasting menus, allowing the customer to select any three dishes from the menu for $52 per person.
+										</p>
+										<p>
+											<strong>Mon - Fri: ---------- 8am - 5pm</strong><br/>
+											<strong>Sat: ------------------ 8am - 11pm</strong><br/>
+											<strong>Sun: ----------------- Closed</strong>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="footer-widget-col col-md-3 col-sm-6">
+								<div class="widget widget-post-thumbnail">
+									<h3 class="widget-title">
+										<span>Recent News</span>
+									</h3>
+									<ul class="posts-thumbnail-list">
+										<li>
+											<div class="posts-thumbnail-image">
+												<a href="#">
+													<img width="600" height="319" src="images/blog/blog-thumb-60x32.jpg" alt="blog-5" />
+												</a>
+											</div>
+											<div class="posts-thumbnail-content">
+												<h4><a href="#">Cheese Brie Sandwich</a></h4>
+												<div class="posts-thumbnail-meta">
+													<time datetime="2015-04-28T08:40:24+00:00">April 28, 2015</time>, 
+													<span class="comment-count">
+														<a href="#">0 Comments</a>
+													</span>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="posts-thumbnail-image">
+												<a href="#">
+													<img width="600" height="319" src="images/blog/blog-thumb-60x32.jpg" alt="blog-2" />
+												</a>
+											</div>
+											<div class="posts-thumbnail-content">
+												<h4><a href="#">Fermentum Commodo Arcu</a></h4>
+												<div class="posts-thumbnail-meta">
+													<time datetime="2015-04-28T08:40:24+00:00">April 28, 2015</time>, 
+													<span class="comment-count">
+														<a href="#">0 Comments</a>
+													</span>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="posts-thumbnail-image">
+												<a href="#">
+													<img width="600" height="319" src="images/blog/blog-thumb-60x32.jpg" alt="blog-3" />
+												</a>
+											</div>
+											<div class="posts-thumbnail-content">
+												<h4><a href="#">Cooking Lesson</a></h4>
+												<div class="posts-thumbnail-meta">
+													<time datetime="2015-04-28T08:40:24+00:00">April 28, 2015</time>, 
+													<span class="comment-count">
+														<a href="#">0 Comments</a>
+													</span>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="footer-widget-col col-md-3 col-sm-6">
+								<div class="widget tweets-widget">
+									<h3 class="widget-title">
+										<span>Latest Tweets</span>
+									</h3>
+									<div class="recent-tweets">
+										<ul>
+											<li>
+												<span>
+													Social Login for Magento allow users to log into your store through their social profiles <a href="#" target="_blank">http://t.co/H6b1SdBddu</a> <a href="#" target="_blank">http://t.co/cG9vSZoTjy</a>
+												</span>
+												<a class="twitter_time" target="_blank" href="#">223 days ago</a>
+											</li>
+											<li>
+												<span>
+													Copy VC shortcode for different purposes: in WP Widget Text, in do_shortcode function…. <a href="#" target="_blank">http://t.co/kgeZgVppr1</a> <a href="#" target="_blank">http://t.co/UT26ch7daD</a>
+												</span>
+												<a class="twitter_time" target="_blank" href="#">229 days ago</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="footer-widget-col col-md-3 col-sm-6">
+								<div class="widget widget_nav_menu">
+									<h3 class="widget-title">
+										<span>Infomation</span>
+									</h3>
+									<div class="menu-infomation-container">
+										<ul class="menu">
+											<li><a href="#">Legal Notice</a></li>
+											<li><a href="#">Terms of use</a></li>
+											<li><a href="#">About us</a></li>
+											<li><a href="#">Secure payment</a></li>
+											<li><a href="#">Typo</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="footer">
+				<div class="footer-info">
+					<div class="container">
+						<div class="footer-info-wrap">
+							<div class="row">
+								<div class="col-md-4 hidden-sm hidden-xs">
+									<div class="copyright text-left">Vicky Restaurant © 2015</div>
+								</div>
+								<div class="col-md-4 col-sm-12 text-center">
+									<div class="footer-info-logo">
+										<a href="#">
+											<img alt="Vicky Restaurant" src="images/footer-logo-coffee.png">
+										</a>
+									</div>
+									<div class="footer-social">
+										<a href="#" title="Facebook" target="_blank">
+											<i class="fa fa-facebook facebook-bg-hover"></i>
+										</a>
+										<a href="#" title="Twitter" target="_blank">
+											<i class="fa fa-twitter twitter-bg-hover"></i>
+										</a>
+										<a href="#" title="Google+" target="_blank">
+											<i class="fa fa-google-plus google-plus-bg-hover"></i>
+										</a>
+										<a href="#" title="Pinterest" target="_blank">
+											<i class="fa fa-pinterest pinterest-bg-hover"></i>
+										</a>
+										<a href="#" title="RSS" target="_blank">
+											<i class="fa fa-rss rss-bg-hover"></i>
+										</a>
+										<a href="#" title="Instagram" target="_blank">
+											<i class="fa fa-instagram instagram-bg-hover"></i>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-4 hidden-sm hidden-xs">
+									<div class="footer-info-text text-right">
+										Designed by <a href="#">Sitesao</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<a href="#" class="go-to-top"><i class="fa fa-angle-up"></i></a>
+
+		<script type='text/javascript' src='js/jquery-1.11.3.min.js'></script>
+		<script type='text/javascript' src='js/jquery-migrate.min.js'></script>
+		<script type='text/javascript' src='js/jquery.validate.min.js'></script>
+		<script type='text/javascript' src='js/easing.min.js'></script>
+		<script type='text/javascript' src='js/imagesloaded.pkgd.min.js'></script>
+		<script type='text/javascript' src='js/bootstrap.min.js'></script>
+		<script type='text/javascript' src='js/superfish-1.7.4.min.js'></script>
+		<script type='text/javascript' src='js/jquery.appear.min.js'></script>
+		<script type='text/javascript' src='js/script.js'></script>
+		<script type='text/javascript' src='js/jquery.blockUI.min.js'></script>
+		<script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+		<script type='text/javascript' src='js/jquery.carouFredSel.min.js'></script>
+		<script type='text/javascript' src='js/isotope.pkgd.min.js'></script>
+		<script type='text/javascript' src='js/jquery.magnific-popup.min.js'></script>
+		<script type='text/javascript' src='js/jquery.parallax.js'></script>
+		<script type='text/javascript' src='js/preloader.min.js'></script>
+	</body>
+</html>
